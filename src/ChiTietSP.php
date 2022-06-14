@@ -3,7 +3,7 @@ require('Widget/Menu.php');
 require('Widget/scroll.php');
 
 //sản phẩm liên quan
-$connect = mysqli_connect("db", "root", "example", "quanlyshop");
+$connect = mysqli_connect("db","root","example","quanlyshop");
 
 $IDLoai = isset($_SESSION['IDLoai']) ? $_SESSION['IDLoai'] : null;
 
@@ -403,7 +403,7 @@ mysqli_close($connect);
 
             <script>
                 function InsertReview() {
-                    this.formReview.action = '';
+                    this.formReview.action = 'PHP/Xulybinhluansanpham.php';
                     this.formReview.submit();
                 }
             </script>
@@ -488,7 +488,18 @@ mysqli_close($connect);
 
 </body>
 
-
+<script src="./js/jquery.js"></script>
+<script src="./js/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+<script>
+    $(function() {
+        $(".rateyo").rateYo().on("rateyo.change", function(e, data) {
+            var rating = data.rating;
+            $(this).parent().find('.result').text('rating :' + rating);
+            $(this).parent().find('input[name=rating]').val(rating);
+        });
+    });
+</script>
 
 <script>
             //event scroll animation

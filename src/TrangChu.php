@@ -257,8 +257,9 @@ mysqli_close(connect());
         <form action="" method="GET">
             <div class="Main-Product" >
             <?php                    
-                
-$querySale = "SELECT sp.ID, sp.IDLoai, sp.tenSP, sp.giaSP, sp.giaGiam, sp.brand, sp.imageSP, sk.tienGiam from sanpham as sp join sukien as sk on sp.IDLoai = sk.IDTL WHERE giagiam > 0 LIMIT 4";
+                $querySale = "SELECT sp.ID, sp.IDLoai, sp.tenSP, sp.giaSP, sp.giaGiam, sp.brand, sp.imageSP, sk.tienGiam 
+                              from sanpham as sp join sukien as sk on sp.IDLoai = sk.IDTL 
+                              WHERE giagiam > 0 LIMIT 4";
 
                 $resultSale = mysqli_query(connect(),$querySale);
  
@@ -267,7 +268,6 @@ $querySale = "SELECT sp.ID, sp.IDLoai, sp.tenSP, sp.giaSP, sp.giaGiam, sp.brand,
                     <div class="SubProduct">
                         <span class="Discount">-<?php if(isset($rowSKSale['tienGiam']))  echo $rowSKSale['tienGiam']?>%</span>
 
-                        
                         <a href="PHP/Xulychitietsanpham.php?page=danhsach&brand=<?php echo $rowSKSale['brand']; ?>&id=<?php echo $rowSKSale['ID']; ?>&IDLoai=<?php echo $rowSKSale['IDLoai']; ?>" id="buyProduct">
                         <img type="image" id="ImgShirt" src="<?php echo $rowSKSale['imageSP']?>"></a>
                                     

@@ -52,6 +52,7 @@ if (isset($_POST["btn_edit"])) {
 }
 
 if (isset($_POST['submit_img'])) {
+    require('Config.php');
     if (isset($_FILES["file"])) {
         if (empty($_FILES["file"]['name'])) {
             $error["file"] = "File ảnh trống";
@@ -102,6 +103,7 @@ if (isset($_POST['submit_img'])) {
 
 //nhấn lưu mật khẩu
 if (isset($_POST["btn_editPassWord"])) {
+    require('Config.php');
     $sql = "SELECT * FROM taikhoan where taikhoan.ID = '" . $IDKH . "'";
     $result = mysqli_query(connect(), $sql);
 

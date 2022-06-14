@@ -21,35 +21,35 @@
             <div>
                 <li><a href="">Lọc Màu</a>
                     <ul id="Classify" class="sub_menu" style="display:flex; flex-wrap:wrap; justify-content: center">
-                            <li><a style="background-color: white; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: aliceblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: black; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: bisque ; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: burlywood; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: lightblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: cadetblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: cornflowerblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: darkturquoise; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: aqua; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: blue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: darkcyan; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: green; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: darkslateblue; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: blueviolet; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: hotpink; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: darkorange; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: coral; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: gold; width:25px; height:25px; margin: 5px 5px" href=""></a>
-                            <li><a style="background-color: red; width:25px; height:25px; margin: 5px 5px" href=""></a>
+                            <li><a style="background-color: white; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=1&page=Sản Phẩm&TheLoai=Màu trắng"></a>
+                            <li><a style="background-color: aliceblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=2&page=Sản Phẩm&TheLoai=Màu Xanh trời"></a>
+                            <li><a style="background-color: black; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=3&page=Sản Phẩm&TheLoai=Màu đen"></a>
+                            <li><a style="background-color: bisque ; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=4&page=Sản Phẩm&TheLoai=Màu da"></a>
+                            <li><a style="background-color: burlywood; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=5&page=Sản Phẩm&TheLoai=Màu đất"></a>
+                            <li><a style="background-color: lightblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=6&page=Sản Phẩm&TheLoai=Màu xanh dương"></a>
+                            <li><a style="background-color: cadetblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=7&page=Sản Phẩm&TheLoai=Màu xanh lá nhạt"></a>
+                            <li><a style="background-color: cornflowerblue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=8&page=Sản Phẩm&TheLoai=Màu xanh dương đậm"></a>
+                            <li><a style="background-color: darkturquoise; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=9&page=Sản Phẩm&TheLoai=Màu xanh lá đậm"></a>
+                            <li><a style="background-color: aqua; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=10&page=Sản Phẩm&TheLoai=Màu xanh dương sáng"></a>
+                            <li><a style="background-color: blue; width:25px; height:25px; border: 1px solid #eaeaea; margin: 5px 5px" href="LocMau.php?IDMau=11&page=Sản Phẩm&TheLoai=Màu xanh nước biển đậm"></a>
+                            <li><a style="background-color: darkcyan; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=12&page=Sản Phẩm&TheLoai=Màu xanh lá vừa"></a>
+                            <li><a style="background-color: green; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=13&page=Sản Phẩm&TheLoai=Màu xanh lá cây"></a>
+                            <li><a style="background-color: darkslateblue; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=14&page=Sản Phẩm&TheLoai=Màu tím nhạt"></a>
+                            <li><a style="background-color: blueviolet; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=15&page=Sản Phẩm&TheLoai=Màu tím đậm"></a>
+                            <li><a style="background-color: hotpink; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=16&page=Sản Phẩm&TheLoai=Màu hồng"></a>
+                            <li><a style="background-color: darkorange; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=17&page=Sản Phẩm&TheLoai=Màu vàng cam"></a>
+                            <li><a style="background-color: coral; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=18&page=Sản Phẩm&TheLoai=Màu cam"></a>
+                            <li><a style="background-color: gold; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=19&page=Sản Phẩm&TheLoai=Màu vàng"></a>
+                            <li><a style="background-color: red; width:25px; height:25px; margin: 5px 5px" href="LocMau.php?IDMau=20&page=Sản Phẩm&TheLoai=Màu đỏ"></a>
                     </ul>
                 </li>
                 <li><a href="">Lọc Giá</a>
                     <ul id="Classify" class="sub_menu">
-                        <li><a href="">Dưới 150.000VNĐ</a></li>
-                        <li><a href="">150.000đ - 250.000đ</a></li>
-                        <li><a href="">250.000đ - 350.000đ</a></li>
-                        <li><a href="">350.000đ - 500.000đ</a></li>
-                        <li><a href="">Trên 500.000đ</a></li>
+                        <li><a href="LocGia.php?fromPrice=0&toPrice=150000&page=Sản Phẩm&TheLoai=Dưới 150,000đ">Dưới 150.000VNĐ</a></li>
+                        <li><a href="LocGia.php?fromPrice=150000&toPrice=250000&page=Sản Phẩm&TheLoai=Từ 150,000đ - 250,000đ">150.000đ - 250.000đ</a></li>
+                        <li><a href="LocGia.php?fromPrice=250000&toPrice=350000&page=Sản Phẩm&TheLoai=Từ 250,000đ - 350,000đ">250.000đ - 350.000đ</a></li>
+                        <li><a href="LocGia.php?fromPrice=350000&toPrice=500000&page=Sản Phẩm&TheLoai=Từ 350,000đ - 500,000đ">350.000đ - 500.000đ</a></li>
+                        <li><a href="LocGia.php?fromPrice=500000&toPrice=99999999999&page=Sản Phẩm&TheLoai=Trên 500,000đ">Trên 500.000đ</a></li>
                     </ul>
                 </li>
 
