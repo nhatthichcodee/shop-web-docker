@@ -266,7 +266,8 @@ mysqli_close(connect());
                     <div class="SubProduct">
                         <span class="Discount">-<?php if(isset($rowSKSale['tienGiam']))  echo $rowSKSale['tienGiam']?>%</span>
 
-                        <a href="PHP/Xulychitietsanpham.php?page=danhsach&brand=<?php echo $rowSKSale['brand']; ?>&id=<?php echo $rowSale['ID']; ?>&IDLoai=<?php echo $rowSale['IDLoai']; ?>" id="buyProduct">
+                        
+                        <a href="PHP/Xulychitietsanpham.php?page=danhsach&brand=<?php echo $rowSKSale['brand']; ?>&id=<?php echo $rowSKSale['ID']; ?>&IDLoai=<?php echo $rowSKSale['IDLoai']; ?>" id="buyProduct">
                         <img type="image" id="ImgShirt" src="<?php echo $rowSKSale['imageSP']?>"></a>
                                     
                         <p><?php echo $rowSKSale['tenSP']?></p>
