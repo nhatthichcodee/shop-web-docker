@@ -14,17 +14,17 @@
 
             <div id="Main-Infor">
                 <div>
-                    <img class="Image" src="/QuanLyShop/Image/NhanVien/QA.jpg" alt="">
+                    <img class="Image" src="/Image/NhanVien/QA.jpg" alt="">
                     <p align="center"> Nguyễn Quốc Anh <br> Nhân Viên <br> Ngày Sinh: 11/03/2002 <br>Nhân viên năng động, nhiệt tình hỗ trợ khách hàng 24/7 rất vui tính.</p>
                 </div>
 
                 <div>
-                    <img class="Image" src="/QuanLyShop/Image/NhanVien/Huy.jpg" alt="">
+                    <img class="Image" src="/Image/NhanVien/Huy.jpg" alt="">
                     <p align="center"> Võ Quang Huy <br> Nhân Viên <br> Ngày Sinh: 11/03/2002 <br>Nhân viên năng động, nhiệt tình hỗ trợ khách hàng 24/7 rất vui tính.</p>
                 </div>
 
                 <div>
-                    <img class="Image" src="/QuanLyShop/Image/NhanVien/Dat.jpg" alt="">
+                    <img class="Image" src="/Image/NhanVien/Dat.jpg" alt="">
                     <p align="center"> Hồ Quang Đạt <br> Nhân Viên <br> Ngày Sinh: 11/03/2002 <br>Nhân viên năng động, nhiệt tình hỗ trợ khách hàng 24/7 rất vui tính.</p> 
                 </div>
             </div>

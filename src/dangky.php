@@ -32,7 +32,7 @@ if (!empty($_POST)) {
             $sql = "SELECT * FROM khachhang WHERE email = '$email'";
             $result = mysqli_query(Connect(), $sql);
             if (!$result->num_rows > 0) {
-                $sql1 = "insert into taikhoan(tenDangNhap,matKhau,kiemTra) values ('" . $tenDangNhap . "','" . $matKhau . "',0)";
+                $sql1 = "insert into taikhoan(tenDangNhap,matKhau) values ('" . $tenDangNhap . "','" . $matKhau . "')";
                 $sql2 = "INSERT INTO khachhang(tenDangNhap, SDT, hoTen,email)
     
                 VALUES ('" . $tenDangNhap . "','" . $SDT . "','" . $hoTen . "','" . $email . "')";

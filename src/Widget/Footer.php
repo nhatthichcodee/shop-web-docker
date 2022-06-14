@@ -1,3 +1,73 @@
+<?php
+        if(isset($_POST['submitEmail']))
+        {
+            require "PHPMailer-master/src/PHPMailer.php"; 
+            require "PHPMailer-master/src/SMTP.php"; 
+            require 'PHPMailer-master/src/Exception.php'; 
+
+            //thời gian thực của việt nam
+            date_default_timezone_set('Asia/Ho_Chi_Minh');
+
+            $email = isset($_POST['sendEmail']) ? $_POST['sendEmail'] : null;
+            $hoTen = isset($_SESSION['hoTen']) ? $_SESSION['hoTen'] : null;
+            $date = date('d/m/Y H:i:s');
+            $mail = new PHPMailer\PHPMailer\PHPMailer(true);//true:xử lý lỗi nếu có
+
+            try {
+                $mail->SMTPDebug = 0; //0,1,2: chế độ debug. khi chạy ngon thì chỉnh lại 0 nhé
+                $mail->isSMTP();  
+                $mail->CharSet  = "utf-8";
+                $mail->Host = 'smtp.gmail.com';  //địa chỉ mail sever gmail
+                $mail->SMTPAuth = true; // Enable authentication
+                $mail->Username = 'webshopdocker@gmail.com'; //TK email gửi
+                $mail->Password = 'lowksyomunwwykkr';   // pass email gửi
+                $mail->SMTPSecure = 'ssl';  // encryption SSL/Port = 465  TSL/Port = 587
+                $mail->Port = 465;  // port to connect to                
+                $mail->setFrom('webshopdocker@gmail.com', 'Wibugangz' ); //địa chỉ email người gửi
+                $mail->addAddress($email, $hoTen); //mail và tên người nhận  
+                $mail->isHTML(true);  // Set email format to HTML
+                $mail->Subject = "Thông báo Đăng ký nhận tin từ Wibugangz"; //tiêu đề thư
+                $noidungthu = "<div class='Main__Mailer'
+                                    style='
+                                        background: #f3f3f3;
+                                        width: 700px;
+                                        height: 500px;
+                                        border-radius: 10px;
+                                        color: #252a2b;                         
+                                    '>
+                                    <img style='
+                                            width: 150px; 
+                                            height: 150px; 
+                                            margin: 10px 40%;
+                                            border-radius: 50%;'  
+                                            src='https://adtimin.vn/wp-content/uploads/2017/09/Logo-1.jpg' >  
+
+                                    <h2 style='text-align: center'>Cảm ơn bạn đã đăng ký</h2>
+
+                                    <div style='margin: 0 87px;'>
+                                        <h3>Xin chào:$hoTen</h3>
+                                        <p><b>Ngày:</b>$date</p>
+                                        <p style='color: rgb(119,119,119)'>Chúc mừng bạn đăng ký nhận tin từ Wibugangz thành công!!!
+                                        <hr> 
+                                        <p style='color: rgb(119,119,119); line-height: 1.7;'>
+                                            Bạn vui lòng để ý Mail để nhận được các sự kiện hấp dẫn từ Wibugangz. <br>
+                                            Các thông tin đơn hàng sẽ được thông báo qua gmail của bạn.
+                                        </p>
+                                    </div>                   
+                                </div>"; 
+                $mail->Body = $noidungthu; //nội dung thư
+                $mail->smtpConnect( array(
+                    "ssl" => array(
+                        "verify_peer" => false,
+                        "verify_peer_name" => false,
+                        "allow_self_signed" => true
+                    )
+                ));
+                $mail->send(); //gủi mail
+            } catch (Exception $e) {
+            }
+        }
+    ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,23 +87,23 @@
                 <h3>THÔNG TIN LIÊN HỆ</h3>
                 
                 <div>
-                    <img src="/Image/Icon/address_Bot.png"><a href="">97 Sông Nhuệ</a>
+                    <img src="/Image/Icon/address_Bot.png"><a href="">96/7 Nguyễn Huệ</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/phone_Bot.png" alt=""><a href="">0123456789</a>
+                    <img src="/Image/Icon/phone_Bot.png" alt=""><a href="">90389660305</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/gmail_Bot.png" alt=""><a href="">nhatthichcodee@gmail.com</a>
+                    <img src="/Image/Icon/gmail_Bot.png" alt=""><a href="">kawasakisga@gmail.com</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/facebook_Bot.png" alt=""><a href="https://www.facebook.com/nhat.canh.1998/">Facebook.com/Wibugangz</a>
+                    <img src="/Image/Icon/facebook_Bot.png" alt=""><a href="https://www.facebook.com/Wibugangz-114192821262722">Facebook.com/Wibugangz</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/instagram_Bot.png" alt=""><a href="">nhatthichcodee</a>
+                    <img src="/Image/Icon/instagram_Bot.png" alt=""><a href="">n.qucanh1103</a>
                 </div>
             </div>
 
