@@ -118,7 +118,7 @@ require('Widget/scroll.php');
 
                         <span>
                             <i class="fa-brands fa-facebook"></i>
-                    
+                            <a href="https://www.facebook.com/nhat.canh.1998/">facebook.com/nhat.canh.1998/</a>
                         </span>
                     </p>
                 </div>
@@ -176,7 +176,7 @@ require('Widget/scroll.php');
                 <div class="Nav__StaffContain__div Nav__StaffContain__div_4">
                     <img class="Animation_Hover" src="\Image\NhanVien\Linh.jpg" alt="">
                     <h2>Nguyễn Văn Linh</h2>
-                    <h3 style="color:rgb(245, 77, 77)">Design</h3>
+                    <h3 style="color:rgb(245, 77, 77)">Bảo Vệ</h3>
 
                     <div class="Infor_Staff">
                         <img src="/Image/Icon/Ins.png" alt="">
