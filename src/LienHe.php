@@ -130,21 +130,21 @@ if (isset($_POST['sendEmail'])) {
 
                         <span>
                             <i class="fa-solid fa-location-dot"></i>
-                            72 Nguyễn Công Trứ, TP.Quy Nhơn - Bình Định
+                            97 Sông Nhuệ, Đức Thắng, Bắc Từ Liêm, Hà Nội
                             <br>
                             <br>
                         </span>
 
                         <span>
                             <i class="fa-solid fa-phone"></i>
-                            038 966 0305 - 098.770.2523
+                            0862880810
                             <br>
                             <br>
                         </span>
 
                         <span>
                             <i class="fa-solid fa-envelope"></i>
-                            <a href="">anhbibi11s@gmail.com</a>
+                            <a href="">webshopdocker@gmail.com</a>
                             <br>
                             <br>
                         </span>
@@ -158,13 +158,13 @@ if (isset($_POST['sendEmail'])) {
 
                         <span>
                             <i class="fa-brands fa-facebook"></i>
-                            <a href="https://www.facebook.com/Bianh0/">facebook.com/Bianh0/</a>
+                            <a href="https://www.facebook.com/nhat.canh.1998/">facebook.com/nhat.canh.1998/</a>
                         </span>
                     </p>
                 </div>
             </div>
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.330042945692!2d109.2156686145349!3d13.758959690342799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316f6cebf252c49f%3A0xa83caa291737172f!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBRdXkgTmjGoW4!5e0!3m2!1svi!2s!4v1653970046711!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.922387437337!2d105.76756112945151!3d21.075761846695585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455370ce0c26d%3A0x84694460eefc5345!2zOTcgxJAuIFPDtG5nIE5odeG7hywgxJDDtG5nIE5n4bqhYywgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1655229540563!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>
@@ -178,9 +178,9 @@ if (isset($_POST['sendEmail'])) {
         <div class="Nav__Staff">
             <div class="Nav__StaffContain">
                 <div class="Nav__StaffContain__div Nav__StaffContain__div_1">
-                    <img class="Animation_Hover" src="\QuanLyShop\Image\NhanVien\QA.jpg" alt="">
-                    <h2>Nguyễn Quốc Anh</h2>
-                    <h3 style="color:rgb(245, 77, 77)">Nhân Viên</h3>
+                    <img class="Animation_Hover" src="\Image\NhanVien\Nhat.jpg" alt="">
+                    <h2>Nguyễn Cảnh Nhật</h2>
+                    <h3 style="color:rgb(245, 77, 77)">Tổng Giám đốc</h3>
 
                     <div class="Infor_Staff">
                         <img src="/Image/Icon/Ins.png" alt="">
@@ -190,9 +190,9 @@ if (isset($_POST['sendEmail'])) {
                 </div>
 
                 <div class="Nav__StaffContain__div Nav__StaffContain__div_2">
-                    <img class="Animation_Hover" src="\QuanLyShop\Image\NhanVien\Dat.jpg" alt="">
-                    <h2>Hồ Quang Đạt</h2>
-                    <h3 style="color:rgb(245, 77, 77)">Nhân Viên</h3>
+                    <img class="Animation_Hover" src="\Image\NhanVien\Linh.jpg" alt="">
+                    <h2>Nguyễn Văn Linh</h2>
+                    <h3 style="color:rgb(245, 77, 77)">Phó Tổng Giám Đốc</h3>
 
                     <div class="Infor_Staff">
                         <img src="/Image/Icon/Ins.png" alt="">
@@ -202,9 +202,9 @@ if (isset($_POST['sendEmail'])) {
                 </div>
 
                 <div class="Nav__StaffContain__div Nav__StaffContain__div_3">
-                    <img class="Animation_Hover" src="\QuanLyShop\Image\NhanVien\Son.jpg" alt="">
-                    <h2>Nguyễn Thanh Sơn</h2>
-                    <h3 style="color:rgb(245, 77, 77)">Nhân Viên</h3>
+                    <img class="Animation_Hover" src="\Image\NhanVien\Hoan.jpg" alt="">
+                    <h2>Lại Văn Hoàn</h2>
+                    <h3 style="color:rgb(245, 77, 77)">Cô Thư Ký May Mắn</h3>
 
                     <div class="Infor_Staff">
                         <img src="/Image/Icon/Ins.png" alt="">
@@ -214,9 +214,9 @@ if (isset($_POST['sendEmail'])) {
                 </div>
 
                 <div class="Nav__StaffContain__div Nav__StaffContain__div_4">
-                    <img class="Animation_Hover" src="\QuanLyShop\Image\NhanVien\Loi.jpg" alt="">
-                    <h2>Đào Thanh Lợi</h2>
-                    <h3 style="color:rgb(245, 77, 77)">Nhân Viên</h3>
+                    <img class="Animation_Hover" src="\Image\NhanVien\Bao.jpg" alt="">
+                    <h2>Vũ Hữu Quốc Bảo</h2>
+                    <h3 style="color:rgb(245, 77, 77)">Bảo Vệ</h3>
 
                     <div class="Infor_Staff">
                         <img src="/Image/Icon/Ins.png" alt="">
@@ -226,8 +226,8 @@ if (isset($_POST['sendEmail'])) {
                 </div>
 
                 <div class="Nav__StaffContain__div Nav__StaffContain__div_5">
-                    <img class="Animation_Hover" src="\QuanLyShop\Image\NhanVien\Ni.jpg" alt="">
-                    <h2>Nguyễn Văn Ni</h2>
+                    <img class="Animation_Hover" src="\Image\NhanVien\Quan.jpg" alt="">
+                    <h2>Ngọ Văn Quân</h2>
                     <h3 style="color:rgb(245, 77, 77)">Nhân Viên</h3>
 
                     <div class="Infor_Staff">

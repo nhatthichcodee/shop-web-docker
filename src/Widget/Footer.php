@@ -87,23 +87,23 @@
                 <h3>THÔNG TIN LIÊN HỆ</h3>
                 
                 <div>
-                    <img src="/Image/Icon/address_Bot.png"><a href="">96/7 Nguyễn Huệ</a>
+                    <img src="/Image/Icon/address_Bot.png"><a href="">97 Sông Nhuệ</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/phone_Bot.png" alt=""><a href="">90389660305</a>
+                    <img src="/Image/Icon/phone_Bot.png" alt=""><a href="">0862880810</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/gmail_Bot.png" alt=""><a href="">kawasakisga@gmail.com</a>
+                    <img src="/Image/Icon/gmail_Bot.png" alt=""><a href="">nhatthichcodee@gmail.com</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/facebook_Bot.png" alt=""><a href="https://www.facebook.com/Wibugangz-114192821262722">Facebook.com/Wibugangz</a>
+                    <img src="/Image/Icon/facebook_Bot.png" alt=""><a href="https://www.facebook.com/nhat.canh.1998/">facebook.com/Wibugangz</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/instagram_Bot.png" alt=""><a href="">n.qucanh1103</a>
+                    <img src="/Image/Icon/instagram_Bot.png" alt=""><a href="">nhatthichcodee</a>
                 </div>
             </div>
 
@@ -138,31 +138,31 @@
                 <h3>DANH MỤC SẢN PHẨM</h3>
 
                 <div>
-                    <img src="/Image/Icon/shirt.png" alt=""><a href="LoadAo.php">Áo</a>
+                    <img src="/Image/Icon/shirt.png" alt=""><a>Áo</a>
                 </div>
 
                 <div>            
-                    <img src="/Image/Icon/pant.png" alt=""><a href="LoadQuan.php">Quần</a>
+                    <img src="/Image/Icon/pant.png" alt=""><a>Quần</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/shoes.png" alt=""><a href="LoadGiay.php">Giày</a>
+                    <img src="/Image/Icon/shoes.png" alt=""><a>Giày</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/bag.png" alt=""><a href="LoadBalo.php">Ba Lô</a>
+                    <img src="/Image/Icon/bag.png" alt=""><a>Ba Lô</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/hat.png" alt=""><a href="LoadMu.php">Mũ</a>
+                    <img src="/Image/Icon/hat.png" alt=""><a>Mũ</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/clothesman.png" alt=""><a href="DoNam.php">Đồ Nam</a>
+                    <img src="/Image/Icon/clothesman.png" alt=""><a>Đồ Nam</a>
                 </div>
 
                 <div>
-                    <img src="/Image/Icon/clothesGirl.png" alt=""><a href="DoNu.php">Đồ Nữ</a>
+                    <img src="/Image/Icon/clothesGirl.png" alt=""><a>Đồ Nữ</a>
                 </div>
             </div>
 
