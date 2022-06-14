@@ -19,6 +19,6 @@ Includes :
  - Go to http://localhost:8080/
  - Login mysql admin ( username : root , password : example ), you can change the password in the docker-compose.yml file
  - Create database "quanlyshop"
- - select "quanlyshop" database then import the file quanyshop.sql
+ - Select "quanlyshop" database then import the file quanyshop.sql
 4. Go to HomePage
  - Go to http://localhost:3000/
