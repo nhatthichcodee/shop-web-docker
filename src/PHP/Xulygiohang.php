@@ -17,7 +17,7 @@
 
         $total = ($row['giaSP'] - $row['giaGiam']) * $AMOUT;
 
-        $query = "INSERT INTO `giohang`(`ID`, `IDSP`, `IDKH`, `soLuongDat`, `size`, `tongTien`) VALUES ('[value-1]','".$IDSP."','".$IDKH."','".$AMOUT."','".$SIZE."' , '".$total."')";
+        $query = "INSERT INTO `giohang`(`IDSP`, `IDKH`, `soLuongDat`, `size`, `tongTien`) VALUES ('".$IDSP."','".$IDKH."','".$AMOUT."','".$SIZE."' , '".$total."')";
     
         $result = mysqli_query($connect,$query);
         
