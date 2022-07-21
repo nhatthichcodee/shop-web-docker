@@ -38,7 +38,6 @@ require('Config.php');
         <div class="head-body dis-flex">
                 <ul class="navbar dis-flex">
                     <li><a href="quantri.php"><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href="QuanLyShop"><i class="fa-solid fa-person"></i> Client</a></li>
                 </ul>
         </div>          
     </div>
